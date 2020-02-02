@@ -1,0 +1,48 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+margin:10px 10px;
+width:calc(100px -20px);
+background-color: rgba(255, 0, 0, .6);
+padding: 5px 5px;
+font-family:  helvetica sans-serif ;
+font-size: 100%;
+font-weight: normal;
+border-radius: 10px;
+}
+p{
+
+  font-weight: 400;
+  }
+  h1 {
+    color: teal;
+    padding:5px 20px;
+    margin:5px 5px;
+
+    width: calc(100% -15px);
+    text-align: center;
+    font-size: 200%;
+}
+  a:link{
+    color: green;
+  }
+  a:hover, a:focus{
+    color: orange;
+  }
+
+  .intro{
+    width: calc(100% -100px);
+    padding: 2px;
+  }
+
+
+}
+#Breakfast li::first-letter{
+  font-weight: bold;
+}
+#Lunch li:nth-child(1){
+  color: blue;
+}
